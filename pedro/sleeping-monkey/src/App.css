@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+button.custom-btn {
+  font-family: "Space Mono", monospace;
+}
+body {
+  font-family: "Hubballi", cursive !important;
+  font-weight: 600 !important;
+  background: #efefef !important;
+}
+html,
+body {
+  height: 100%;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(78, 66, 245, 0.8);
+  box-shadow: 0 1px 1px rgba(105, 167, 238, 0.05) inset,
+    0 0 8px rgba(123, 157, 250, 0.6);
+  outline: 0 none;
+}
+img {
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-check:focus + .btn-outline-secondary,
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.25rem rgb(108 117 125 / 0%) !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.username {
+  color: cadetblue;
+  font-family: "Space Mono", monospace;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.score {
+  color: brown;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font {
+  font-family: "Space Mono", monospace;
 }
